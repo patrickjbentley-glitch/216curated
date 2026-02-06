@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    background-color: #1C2B21;
+    color: white;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+}
+
+.gold-text { color: #C5A059; }
+.gold-border { border-color: #C5A059; }
+.gold-bg { background-color: #C5A059; }
+
+.btn-glow {
+    transition: all 0.3s ease;
+}
+
+.btn-glow:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.4);
+    transform: translateY(-2px);
+}
